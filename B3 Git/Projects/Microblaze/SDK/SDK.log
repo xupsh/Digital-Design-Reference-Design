@@ -1,0 +1,4 @@
+23:33:35 INFO  : Processing command line option -hwspec E:/xilinx_task/microblaze/microblaze.sdk/system_wrapper.hdf.
+23:43:09 INFO  : FPGA configured successfully with bitstream "E:/xilinx_task/microblaze/microblaze.sdk/system_wrapper_hw_platform_0/download.bit"
+23:46:34 INFO  : Processor reset is completed for microblaze_0
+23:52:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

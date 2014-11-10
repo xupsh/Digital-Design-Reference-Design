@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sun Sep 28 23:52:47 2014
+# Process ID: 1108
+# Log file: E:/xilinx_task/microblaze/microblaze.sdk/webtalk/vivado.log
+# Journal file: E:/xilinx_task/microblaze/microblaze.sdk/webtalk\vivado.jou
+#-----------------------------------------------------------
+source sdk.tcl
