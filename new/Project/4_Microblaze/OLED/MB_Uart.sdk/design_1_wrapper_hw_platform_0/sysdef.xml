@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Project Version="1" Minor="0">
+	<BUILD_NUMBER Name="1071353"/>
+	<FULL_BUILD Name="SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014"/>
+	<MODE Name="Post-Bitstream"/>
+	<SYSTEMINFO BOARD="" ARCH="artix7" PACKAGE="cpg236" DEVICE="7a35t" SPEED="-1" LUT="" FF="" BRAM="" DSP=""/>
+	<HIERARCHY Name="design_1_i"/>
+	<File Type="HW_HANDOFF" Name="design_1.hwh" ModTime="1454480224"/>
+	<File Type="BIT" Name="design_1_wrapper.bit" ModTime="1454480647"/>
+	<File Type="BMM" Name="design_1_wrapper.mmi" ModTime="1454480625"/>
+	<File Type="BD_TCL" Name="design_1_bd.tcl" ModTime="1454480224"/>
+	<USEDRESOURCES LUT="" FF="" BRAM="" DSP=""/>
+</Project>
+

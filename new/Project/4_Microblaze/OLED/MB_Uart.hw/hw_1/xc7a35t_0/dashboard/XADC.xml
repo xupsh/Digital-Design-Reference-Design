@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <DashboardHolder activeDashboard="SYSMON">
+        <Dashboard columnResizable="1" key="SYSMON" rowResizable="0" title="SYSMON">
+            <Settings/>
+            <GadgetContainer boxAxis="1" count="1" height="632"
+                layout="JideBoxLayout" vgap="6" width="923">
+                <Gadget height="531" key="Sensor Plot" width="923">
+                    <SysMon_plot
+                        SysMon_name="localhost/xilinx_tcf/Digilent/210183624977A/xc7a35t_0/SYSMON"
+                        SysMon_plot_refresh_rate="1000"
+                        SysMon_plot_track_time="1" name="Sensor Plot"/>
+                    <SysMon_sensor SysMon_sensor_color="-65281" name="TEMPERATURE"/>
+                    <SysMon_sensor SysMon_sensor_color="-256" name="VCCINT"/>
+                </Gadget>
+                <Settings/>
+            </GadgetContainer>
+        </Dashboard>
+    </DashboardHolder>
+</component>

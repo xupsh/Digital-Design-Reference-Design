@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1457878926">
+  <File Type="RDS-DCP" Name="Basys3_Abacus_Top.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="Basys3_Abacus_Top_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="Basys3_Abacus_Top_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="Basys3_Abacus_Top.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="Basys3_Abacus_Top.vds"/>
+  <File Type="RDS-UTIL" Name="Basys3_Abacus_Top_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Basys3_Abacus_Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Basys3_Abacus_Top_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="Basys3_Abacus_Top.hwdef"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Adder_Subtractor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Adder_Subtractor.v"/>
+        <Attr Name="ImportTime" Val="1411505281"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Binary_to_BCD_B1_bcdout1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Binary_to_BCD_B1_bcdout1.v"/>
+        <Attr Name="ImportTime" Val="1406530512"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Binary_to_BCD_B2_bcdout2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Binary_to_BCD_B2_bcdout2.v"/>
+        <Attr Name="ImportTime" Val="1406530566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Binary_to_BCD_B_bcdout.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Binary_to_BCD_B_bcdout.v"/>
+        <Attr Name="ImportTime" Val="1405111292"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Display_QU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Display_QU.v"/>
+        <Attr Name="ImportTime" Val="1408059508"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Display_REM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Display_REM.v"/>
+        <Attr Name="ImportTime" Val="1408055782"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Divider.v"/>
+        <Attr Name="ImportTime" Val="1411505278"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/multi_4_4_pp0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/multi_4_4_pp0.v"/>
+        <Attr Name="ImportTime" Val="1411505286"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/multi_4_4_pp1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/multi_4_4_pp1.v"/>
+        <Attr Name="ImportTime" Val="1405024635"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/multi_4_4_pp2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/multi_4_4_pp2.v"/>
+        <Attr Name="ImportTime" Val="1405024647"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/multi_4_4_pp3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/multi_4_4_pp3.v"/>
+        <Attr Name="ImportTime" Val="1405024657"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Segment_Scroll.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Segment_Scroll.v"/>
+        <Attr Name="ImportTime" Val="1407261231"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Seg_7_Display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Seg_7_Display.v"/>
+        <Attr Name="ImportTime" Val="1411505283"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/HDL_source/Basys3_Abacus_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HDL_source/Basys3_Abacus_Top.v"/>
+        <Attr Name="ImportTime" Val="1412216608"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Basys3_Abacus_Top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Constraint/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Constraint/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1423729413"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

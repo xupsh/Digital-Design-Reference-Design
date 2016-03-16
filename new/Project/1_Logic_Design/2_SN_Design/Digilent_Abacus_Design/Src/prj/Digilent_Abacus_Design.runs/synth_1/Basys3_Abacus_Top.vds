@@ -1,0 +1,552 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun Mar 13 22:22:08 2016
+# Process ID: 100720
+# Log file: e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.runs/synth_1/Basys3_Abacus_Top.vds
+# Journal file: e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Basys3_Abacus_Top.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.cache/wt [current_project]
+# set_property parent.project_path e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog -library xil_defaultlib {
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Adder_Subtractor.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B1_bcdout1.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B2_bcdout2.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B_bcdout.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Display_QU.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Display_REM.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Divider.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp0.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp1.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp2.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp3.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Segment_Scroll.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Seg_7_Display.v
+#   e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Basys3_Abacus_Top.v
+# }
+# read_xdc e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/constrs_1/imports/Constraint/Basys3_Master.xdc
+# set_property used_in_implementation false [get_files e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/constrs_1/imports/Constraint/Basys3_Master.xdc]
+# catch { write_hwdef -file Basys3_Abacus_Top.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top Basys3_Abacus_Top -part xc7a35tcpg236-1
+Command: synth_design -top Basys3_Abacus_Top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 239.703 ; gain = 80.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Basys3_Abacus_Top' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Basys3_Abacus_Top.v:36]
+INFO: [Synth 8-638] synthesizing module 'bin_to_decimal' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B_bcdout.v:21]
+INFO: [Synth 8-256] done synthesizing module 'bin_to_decimal' (1#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B_bcdout.v:21]
+INFO: [Synth 8-638] synthesizing module 'BIN_DEC1' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B1_bcdout1.v:23]
+INFO: [Synth 8-256] done synthesizing module 'BIN_DEC1' (2#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B1_bcdout1.v:23]
+INFO: [Synth 8-638] synthesizing module 'BIN_DEC2' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B2_bcdout2.v:23]
+INFO: [Synth 8-256] done synthesizing module 'BIN_DEC2' (3#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Binary_to_BCD_B2_bcdout2.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg_scroll' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Segment_Scroll.v:22]
+INFO: [Synth 8-256] done synthesizing module 'seg_scroll' (4#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Segment_Scroll.v:22]
+INFO: [Synth 8-638] synthesizing module 'Seg_Scroll_QU' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Display_QU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Seg_Scroll_QU' (5#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Display_QU.v:23]
+INFO: [Synth 8-638] synthesizing module 'Seg_Scroll_REM' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Display_REM.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Seg_Scroll_REM' (6#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Display_REM.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg7decimal' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Seg_7_Display.v:21]
+INFO: [Synth 8-226] default block is never used [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Seg_7_Display.v:46]
+INFO: [Synth 8-256] done synthesizing module 'seg7decimal' (7#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Seg_7_Display.v:21]
+INFO: [Synth 8-638] synthesizing module 'adder' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Adder_Subtractor.v:21]
+INFO: [Synth 8-256] done synthesizing module 'adder' (8#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Adder_Subtractor.v:21]
+INFO: [Synth 8-638] synthesizing module 'multi_4_4_pp0' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp0.v:21]
+INFO: [Synth 8-256] done synthesizing module 'multi_4_4_pp0' (9#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp0.v:21]
+INFO: [Synth 8-638] synthesizing module 'multi_4_4_pp1' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp1.v:21]
+INFO: [Synth 8-256] done synthesizing module 'multi_4_4_pp1' (10#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp1.v:21]
+INFO: [Synth 8-638] synthesizing module 'multi_4_4_pp2' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp2.v:21]
+INFO: [Synth 8-256] done synthesizing module 'multi_4_4_pp2' (11#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp2.v:21]
+INFO: [Synth 8-638] synthesizing module 'multi_4_4_pp3' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp3.v:21]
+INFO: [Synth 8-256] done synthesizing module 'multi_4_4_pp3' (12#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/multi_4_4_pp3.v:21]
+INFO: [Synth 8-638] synthesizing module 'divider' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Divider.v:21]
+INFO: [Synth 8-256] done synthesizing module 'divider' (13#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Divider.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Basys3_Abacus_Top' (14#1) [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Basys3_Abacus_Top.v:36]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 286.816 ; gain = 127.254
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 286.816 ; gain = 127.254
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/constrs_1/imports/Constraint/Basys3_Master.xdc]
+Finished Parsing XDC File [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/constrs_1/imports/Constraint/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 585.102 ; gain = 0.008
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'B_reg' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Basys3_Abacus_Top.v:150]
+WARNING: [Synth 8-327] inferring latch for variable 'B1_reg' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Basys3_Abacus_Top.v:185]
+WARNING: [Synth 8-327] inferring latch for variable 'B2_reg' [e:/Basys3/Projects/1_Logic_Design/2_SN_Design/Digilent_Abacus_Design/Src/prj/Digilent_Abacus_Design.srcs/sources_1/imports/HDL_source/Basys3_Abacus_Top.v:197]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      8 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 8     
+	   3 Input      6 Bit       Adders := 1     
+	   4 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 196   
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
+	   3 Input      1 Bit         XORs := 14    
++---Registers : 
+	               24 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 8     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 6     
+	   2 Input     16 Bit        Muxes := 3     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 20    
+	  14 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 367   
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Basys3_Abacus_Top 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      6 Bit       Adders := 1     
+	   4 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+Module bin_to_decimal 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 65    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 121   
+Module BIN_DEC1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 65    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 121   
+Module BIN_DEC2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 65    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 121   
+Module seg_scroll 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+Module Seg_Scroll_QU 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+Module Seg_Scroll_REM 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 2     
+Module seg7decimal 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	  14 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+Module adder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
+	   3 Input      1 Bit         XORs := 14    
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 1     
+Module multi_4_4_pp0 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+Module multi_4_4_pp1 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+Module multi_4_4_pp2 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+Module multi_4_4_pp3 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+Module divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 8     
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 585.102 ; gain = 425.539
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\c_reg[7] ) is unused and will be removed from module adder.
+WARNING: [Synth 8-3332] Sequential element (\c_reg[6] ) is unused and will be removed from module adder.
+WARNING: [Synth 8-3332] Sequential element (\c_reg[5] ) is unused and will be removed from module adder.
+WARNING: [Synth 8-3332] Sequential element (\c_reg[4] ) is unused and will be removed from module adder.
+WARNING: [Synth 8-3332] Sequential element (\c_reg[3] ) is unused and will be removed from module adder.
+WARNING: [Synth 8-3332] Sequential element (\c_reg[2] ) is unused and will be removed from module adder.
+WARNING: [Synth 8-3332] Sequential element (\c_reg[1] ) is unused and will be removed from module adder.
+WARNING: [Synth 8-3332] Sequential element (\c_reg[0] ) is unused and will be removed from module adder.
+WARNING: [Synth 8-3332] Sequential element (\c_reg[8] ) is unused and will be removed from module adder.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[19] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[18] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[17] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[16] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[15] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[14] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[13] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[12] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[11] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[10] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[9] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[8] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[7] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[6] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[5] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[4] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[3] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[2] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[1] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[0] ) is unused and will be removed from module seg_scroll.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_1) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_2) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_3) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_4) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_5) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_6) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_7) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_8) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_9) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_10) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[9] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[8] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[7] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[6] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[5] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[4] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[3] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[2] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[1] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[0] ) is unused and will be removed from module Seg_Scroll_QU.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_1) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_2) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_3) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_4) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_5) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_6) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_7) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_8) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_9) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (msg_array_regi_10) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[9] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[8] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[7] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[6] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[5] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[4] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[3] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[2] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[1] ) is unused and will be removed from module Seg_Scroll_REM.
+WARNING: [Synth 8-3332] Sequential element (\msg_array_reg[0] ) is unused and will be removed from module Seg_Scroll_REM.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 585.102 ; gain = 425.539
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 585.102 ; gain = 425.539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 597.574 ; gain = 438.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 597.574 ; gain = 438.012
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 597.574 ; gain = 438.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 597.574 ; gain = 438.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     4|
+|2     |CARRY4 |    57|
+|3     |LUT1   |   102|
+|4     |LUT2   |    61|
+|5     |LUT3   |   102|
+|6     |LUT4   |   116|
+|7     |LUT5   |    86|
+|8     |LUT6   |   191|
+|9     |MUXF7  |     4|
+|10    |MUXF8  |     2|
+|11    |FDCE   |   167|
+|12    |FDPE   |    46|
+|13    |FDRE   |    69|
+|14    |LD     |    32|
+|15    |LDC    |    40|
+|16    |IBUF   |    22|
+|17    |OBUF   |    28|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+---------------+------+
+|      |Instance |Module         |Cells |
++------+---------+---------------+------+
+|1     |top      |               |  1129|
+|2     |  u10    |multi_4_4_pp1  |    33|
+|3     |  u11    |multi_4_4_pp2  |    34|
+|4     |  u12    |multi_4_4_pp3  |    42|
+|5     |  u13    |divider        |    94|
+|6     |  u4     |seg_scroll     |   298|
+|7     |  u5     |Seg_Scroll_QU  |   144|
+|8     |  u6     |Seg_Scroll_REM |   155|
+|9     |  u7     |seg7decimal    |    81|
+|10    |  u8     |adder          |    56|
+|11    |  u9     |multi_4_4_pp0  |    46|
++------+---------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 597.574 ; gain = 438.012
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 72 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:28 . Memory (MB): peak = 597.574 ; gain = 113.914
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 597.574 ; gain = 438.012
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 151 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 72 instances were transformed.
+  LD => LDCE: 32 instances
+  LDC => LDCE: 40 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 72 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 597.887 ; gain = 412.680
+# write_checkpoint -noxdef Basys3_Abacus_Top.dcp
+# catch { report_utilization -file Basys3_Abacus_Top_utilization_synth.rpt -pb Basys3_Abacus_Top_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 597.887 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 13 22:22:44 2016...

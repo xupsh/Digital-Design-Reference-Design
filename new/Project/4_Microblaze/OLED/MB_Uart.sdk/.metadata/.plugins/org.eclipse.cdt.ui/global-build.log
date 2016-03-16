@@ -1,0 +1,149 @@
+14:29:18 **** Build of project oled_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/cpu_v2_2/src"
+make -C microblaze_0/libsrc/cpu_v2_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/intc_v3_2/src"
+make -C microblaze_0/libsrc/intc_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/spi_v4_1/src"
+make -C microblaze_0/libsrc/spi_v4_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/standalone_v4_2/src"
+make -C microblaze_0/libsrc/standalone_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make libs in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_2/src"
+make -C microblaze_0/libsrc/cpu_v2_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_2/src"
+make -C microblaze_0/libsrc/intc_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/spi_v4_1/src"
+make -C microblaze_0/libsrc/spi_v4_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v4_2/src"
+make -C microblaze_0/libsrc/standalone_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.4 -mlittle-endian -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling standalone";
+'Finished building libraries'
+14:29:25 **** Build of configuration Debug for project oled ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -I../../oled_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.d" -o "src/testperiph.o" "../src/testperiph.c"
+../src/testperiph.c: In function 'main':
+../src/testperiph.c:50:4: warning: pointer targets in passing argument 3 of 'LED_P6x8Str' differ in signedness [-Wpointer-sign]
+    LED_P6x8Str(12, 3, "University Program");
+    ^
+In file included from ../src/testperiph.c:32:0:
+../src/xil_oled.h:57:6: note: expected 'u8 *' but argument is of type 'char *'
+ void LED_P6x8Str(u8 x,u8 y,u8 ch[]);
+      ^
+'Finished building: ../src/testperiph.c'
+' '
+'Building file: ../src/xgpio_tapp_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpio_tapp_example.o" -I../../oled_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xgpio_tapp_example.d" -MT"src/xgpio_tapp_example.d" -o "src/xgpio_tapp_example.o" "../src/xgpio_tapp_example.c"
+../src/xgpio_tapp_example.c: In function 'GpioOutputExample':
+../src/xgpio_tapp_example.c:172:6: warning: unused variable 'Data' [-Wunused-variable]
+  u32 Data;
+      ^
+'Finished building: ../src/xgpio_tapp_example.c'
+' '
+'Building file: ../src/xil_oled.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xil_oled.o" -I../../oled_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xil_oled.d" -MT"src/xil_oled.d" -o "src/xil_oled.o" "../src/xil_oled.c"
+../src/xil_oled.c: In function 'LEDPIN_Init':
+../src/xil_oled.c:152:6: warning: 'return' with a value, in function returning void [enabled by default]
+      return XST_FAILURE;
+      ^
+../src/xil_oled.c:157:6: warning: 'return' with a value, in function returning void [enabled by default]
+      return XST_FAILURE;
+      ^
+../src/xil_oled.c:162:9: warning: 'return' with a value, in function returning void [enabled by default]
+         return XST_FAILURE;
+         ^
+../src/xil_oled.c:167:11: warning: 'return' with a value, in function returning void [enabled by default]
+           return XST_FAILURE;
+           ^
+../src/xil_oled.c:189:4: warning: 'return' with a value, in function returning void [enabled by default]
+    return XST_DEVICE_NOT_FOUND;
+    ^
+../src/xil_oled.c:196:4: warning: 'return' with a value, in function returning void [enabled by default]
+    return XST_FAILURE;
+    ^
+../src/xil_oled.c:205:4: warning: 'return' with a value, in function returning void [enabled by default]
+    return XST_FAILURE;
+    ^
+../src/xil_oled.c:211:8: warning: 'return' with a value, in function returning void [enabled by default]
+        return XST_FAILURE;
+        ^
+../src/xil_oled.c:224:6: warning: 'return' with a value, in function returning void [enabled by default]
+      return XST_FAILURE;
+      ^
+'Finished building: ../src/xil_oled.c'
+' '
+'Building file: ../src/xintc_tapp_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xintc_tapp_example.o" -I../../oled_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xintc_tapp_example.d" -MT"src/xintc_tapp_example.d" -o "src/xintc_tapp_example.o" "../src/xintc_tapp_example.c"
+'Finished building: ../src/xintc_tapp_example.c'
+' '
+'Building file: ../src/xspi_intr_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xspi_intr_example.o" -I../../oled_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xspi_intr_example.d" -MT"src/xspi_intr_example.d" -o "src/xspi_intr_example.o" "../src/xspi_intr_example.c"
+'Finished building: ../src/xspi_intr_example.c'
+' '
+'Building file: ../src/xspi_selftest_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xspi_selftest_example.o" -I../../oled_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xspi_selftest_example.d" -MT"src/xspi_selftest_example.d" -o "src/xspi_selftest_example.o" "../src/xspi_selftest_example.c"
+'Finished building: ../src/xspi_selftest_example.c'
+' '
+'Building target: oled.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../oled_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "oled.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o ./src/xil_oled.o ./src/xintc_tapp_example.o ./src/xspi_intr_example.o ./src/xspi_selftest_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: oled.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size oled.elf  |tee "oled.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10444	    468	   2256	  13168	   3370	oled.elf
+'Finished building: oled.elf.size'
+' '
+14:30:04 **** Incremental Build of configuration Debug for project oled ****
+make all 
+make: Nothing to be done for `all'.
+14:30:30 **** Auto Build of configuration Debug for project oled ****
+make all 
+'Building file: ../src/testperiph.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testperiph.o" -I../../oled_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testperiph.d" -MT"src/testperiph.d" -o "src/testperiph.o" "../src/testperiph.c"
+../src/testperiph.c: In function 'main':
+../src/testperiph.c:50:4: warning: pointer targets in passing argument 3 of 'LED_P6x8Str' differ in signedness [-Wpointer-sign]
+    LED_P6x8Str(12, 3, "Xilinx University Program");
+    ^
+In file included from ../src/testperiph.c:32:0:
+../src/xil_oled.h:57:6: note: expected 'u8 *' but argument is of type 'char *'
+ void LED_P6x8Str(u8 x,u8 y,u8 ch[]);
+      ^
+'Finished building: ../src/testperiph.c'
+' '
+'Building target: oled.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../oled_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.4 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "oled.elf"  ./src/testperiph.o ./src/xgpio_tapp_example.o ./src/xil_oled.o ./src/xintc_tapp_example.o ./src/xspi_intr_example.o ./src/xspi_selftest_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: oled.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size oled.elf  |tee "oled.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  10452	    468	   2256	  13176	   3378	oled.elf
+'Finished building: oled.elf.size'
+' '
+14:30:36 **** Incremental Build of configuration Debug for project oled ****
+make all 
+make: Nothing to be done for `all'.

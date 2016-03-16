@@ -1,0 +1,18 @@
+14:28:58 INFO  : Processing command line option -hwspec E:/Basys3/Microblaze/oled/MB_Uart.sdk/design_1_wrapper.hdf.
+14:29:03 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:29:51 INFO  : FPGA configured successfully with bitstream "E:/Basys3/Microblaze/oled/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+14:30:11 INFO  : Processor reset is completed for microblaze_0
+14:30:44 INFO  : Processor reset is completed for microblaze_0
+21:37:55 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.read(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Unknown Source)
+21:37:55 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.

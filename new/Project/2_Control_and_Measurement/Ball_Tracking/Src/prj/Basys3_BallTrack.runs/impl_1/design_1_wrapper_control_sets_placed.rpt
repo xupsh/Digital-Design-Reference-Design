@@ -1,0 +1,169 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Mon Dec 21 15:58:11 2015
+| Host         : XSHZHEHENGT30 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |   116 |
+| Minimum Number of register sites lost to control set restrictions |   143 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             132 |           63 |
+| No           | No                    | Yes                    |             111 |           37 |
+| No           | Yes                   | No                     |              40 |           17 |
+| Yes          | No                    | No                     |             127 |           51 |
+| Yes          | No                    | Yes                    |              24 |           11 |
+| Yes          | Yes                   | No                     |             263 |           82 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------+-------------------------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+
+|             Clock Signal            |                           Enable Signal                           |                         Set/Reset Signal                        | Slice Load Count | Bel Load Count |
++-------------------------------------+-------------------------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_r2_0_63_0_0_i_1      |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_r3_0_63_0_0_i_1      |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_0_63_0_0_i_1          |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_r2_0_63_0_0_i_1      |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_r3_0_63_0_0_i_1      |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_r3_0_63_0_0_i_1      |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_0_63_0_0_i_1         |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_r2_0_63_0_0_i_1      |                                                                 |                1 |              2 |
+|  design_1_i/dilate_0/inst/Line_CLK  |                                                                   |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_r3_0_63_0_0_i_1       |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_r2_0_63_0_0_i_1       |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_0_63_0_0_i_1          |                                                                 |                1 |              2 |
+|  design_1_i/erode_0/inst/Line_CLK   |                                                                   |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_0_63_0_0_i_1         |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_r3_0_63_0_0_i_1       |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_r2_0_63_0_0_i_1       |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_0_63_0_0_i_1          |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_r3_0_63_0_0_i_1       |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_r2_0_63_0_0_i_1       |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_0_63_0_0_i_1          |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_r3_0_63_0_0_i_1       |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_0_63_0_0_i_1         |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_r2_0_63_0_0_i_1       |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_r3_0_63_0_0_i_1      |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_0_63_0_0_i_1         |                                                                 |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_r2_0_63_0_0_i_1      |                                                                 |                1 |              2 |
+|  design_1_i/debounce_0/inst/cclk    |                                                                   |                                                                 |                1 |              3 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_r3_0_127_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_r3_128_255_0_0_i_1    |                                                                 |                1 |              4 |
+|  OV7725_VSYNC_IBUF_BUFG             |                                                                   | design_1_i/servo_ctrl_0/inst/u_pwm_gen_y/n_0_pwm_diff[6]_i_1    |                3 |              4 |
+|  OV7725_VSYNC_IBUF_BUFG             |                                                                   | design_1_i/servo_ctrl_0/inst/u_pwm_gen_x/n_0_pwm_diff[6]_i_1    |                2 |              4 |
+|  OV7725_VSYNC_IBUF_BUFG             | design_1_i/servo_ctrl_0/inst/u_pwm_gen_y/n_0_pwm_thres[14]_i_2__0 | design_1_i/servo_ctrl_0/inst/u_pwm_gen_y/n_0_pwm_thres[11]_i_1  |                2 |              4 |
+|  OV7725_VSYNC_IBUF_BUFG             | design_1_i/servo_ctrl_0/inst/u_pwm_gen_x/n_0_pwm_thres[14]_i_2    | design_1_i/servo_ctrl_0/inst/u_pwm_gen_x/n_0_pwm_thres[8]_i_1   |                3 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 |                                                                   | design_1_i/colorDetect_0/inst/RGBrender/n_0_RGB_render[15]_i_1  |                2 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_128_255_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/u_weight/n_0_weight[3]_i_1          |                                                                 |                2 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_0_127_0_0_i_1        |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_128_255_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_r2_0_127_0_0_i_1     |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_r2_128_255_0_0_i_1   |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_r3_0_127_0_0_i_1     |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer0_reg_r3_128_255_0_0_i_1   |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_0_127_0_0_i_1        |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_128_255_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_r2_0_127_0_0_i_1     |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_r2_128_255_0_0_i_1   |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_r3_0_127_0_0_i_1     |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer1_reg_r3_128_255_0_0_i_1   |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_0_127_0_0_i_1        |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_r2_0_127_0_0_i_1     |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_r2_128_255_0_0_i_1   |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_r3_0_127_0_0_i_1     |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer2_reg_r3_128_255_0_0_i_1   |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_0_127_0_0_i_1        |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_128_255_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_r2_0_127_0_0_i_1     |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_r2_128_255_0_0_i_1   |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_r3_0_127_0_0_i_1     |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_r3_128_255_0_0_i_1    |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/n_0_LineBuffer3_reg_r3_128_255_0_0_i_1   |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_0_127_0_0_i_1         |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_128_255_0_0_i_1       |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_r2_0_127_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_r2_128_255_0_0_i_1    |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_r3_0_127_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer0_reg_r3_128_255_0_0_i_1    |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_0_127_0_0_i_1         |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_128_255_0_0_i_1       |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_r2_0_127_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_r2_128_255_0_0_i_1    |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_r3_0_127_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer1_reg_r3_128_255_0_0_i_1    |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_0_127_0_0_i_1         |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_128_255_0_0_i_1       |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_r2_0_127_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_r2_128_255_0_0_i_1    |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer2_reg_r3_0_127_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_0_127_0_0_i_1         |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_128_255_0_0_i_1       |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_r2_0_127_0_0_i_1      |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/erode_0/inst/n_0_LineBuffer3_reg_r2_128_255_0_0_i_1    |                                                                 |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out1 | design_1_i/xadc_0/inst/n_0_FSM_sequential_state[4]_i_1            | design_1_i/debounce_0/inst/o                                    |                2 |              5 |
+|  design_1_i/clk_wiz_0/inst/clk_out1 | design_1_i/xadc_0/inst/n_0_daddr[6]_i_1                           |                                                                 |                2 |              5 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/rgb2hsv_top_0/inst/n_0_v[7]_i_1                        | design_1_i/rgb2hsv_top_0/inst/sign_flag15_out                   |                2 |              5 |
+|  OV7725_PCLK_IBUF_BUFG              |                                                                   | OV7725_VSYNC_IBUF_BUFG                                          |                3 |              6 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 |                                                                   | design_1_i/debounce_0/inst/clear                                |                2 |              6 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/IICctrl_0/inst/u_I2C_Controller/n_0_SD_COUNTER[5]_i_1  | design_1_i/debounce_0/inst/o                                    |                2 |              6 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/rgb2hsv_top_0/inst/n_0_v[7]_i_1                        |                                                                 |                2 |              7 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/cenCalculate/n_0_v_cnt[10]_i_1      |                                                                 |                2 |              8 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/cenCalculate/num0                   | design_1_i/colorDetect_0/inst/cenCalculate/n_0_center_v[10]_i_1 |                2 |              8 |
+|  OV7725_VSYNC_IBUF_BUFG             | design_1_i/servo_ctrl_0/inst/u_pwm_gen_x/n_0_pwm_thres[14]_i_2    | design_1_i/servo_ctrl_0/inst/u_pwm_gen_x/n_0_pwm_thres[14]_i_1  |                3 |              8 |
+|  OV7725_VSYNC_IBUF_BUFG             | design_1_i/servo_ctrl_0/inst/u_pwm_gen_y/n_0_pwm_thres[14]_i_2__0 | design_1_i/servo_ctrl_0/inst/u_pwm_gen_y/n_0_pwm_thres[14]_i_1  |                2 |              8 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/IICctrl_0/inst/n_0_LUT_INDEX[7]_i_1                    | design_1_i/debounce_0/inst/o                                    |                4 |              8 |
+|  design_1_i/clk_wiz_0/inst/clk_out1 | design_1_i/xadc_0/inst/n_0_di_drp[9]_i_1                          | design_1_i/debounce_0/inst/o                                    |                2 |             10 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/vga_0/inst/n_0_line_cnt[9]_i_1                         | design_1_i/debounce_0/inst/o                                    |                5 |             10 |
+|  design_1_i/clk_wiz_0/inst/clk_out1 | design_1_i/xadc_0/inst/n_0_MEASURED_AUX2[15]_i_1                  |                                                                 |                5 |             12 |
+|  design_1_i/clk_wiz_0/inst/clk_out1 | design_1_i/xadc_0/inst/n_0_MEASURED_AUX3[15]_i_1                  |                                                                 |                2 |             12 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 |                                                                   | design_1_i/dilate_0/inst/pix_o                                  |                3 |             12 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/cenCalculate/n_0_h_cnt[11]_i_2      | design_1_i/colorDetect_0/inst/cenCalculate/n_0_h_cnt[11]_i_1    |                4 |             12 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/cenCalculate/num0                   | design_1_i/colorDetect_0/inst/cenCalculate/n_0_center_h[11]_i_1 |                3 |             12 |
+|  OV7725_VSYNC_IBUF_BUFG             |                                                                   |                                                                 |                6 |             13 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/rgb2hsv_top_0/inst/n_0_s_divisor[7]_i_2                | design_1_i/rgb2hsv_top_0/inst/sign_flag10_out                   |                6 |             14 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/cenCalculate/center_line_num_cnt0   | design_1_i/colorDetect_0/inst/cenCalculate/n_0_h_cnt[11]_i_1    |                4 |             15 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/ram_read_0/inst/address0                               | design_1_i/ram_read_0/inst/n_0_address[16]_i_1                  |                5 |             17 |
+|  OV7725_PCLK_IBUF_BUFG              | design_1_i/cam_ov7670_ov7725_0/inst/n_0_we_i_1                    |                                                                 |               13 |             17 |
+|  OV7725_PCLK_IBUF_BUFG              | design_1_i/cam_ov7670_ov7725_0/inst/p_0_in1_in                    | OV7725_VSYNC_IBUF_BUFG                                          |                5 |             17 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/dilate_0/inst/pix_o                                    | design_1_i/colorDetect_0/inst/Binary_Sum                        |                6 |             21 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | btn_ColorExtract_IBUF                                             | sw_ColorClear_IBUF                                              |                9 |             24 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/cenCalculate/E[0]                   |                                                                 |               12 |             24 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/cenCalculate/num_cnt04_out          | design_1_i/colorDetect_0/inst/cenCalculate/n_0_h_cnt[11]_i_1    |                7 |             25 |
+|  OV7725_PCLK_IBUF_BUFG              |                                                                   |                                                                 |               13 |             29 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/cenCalculate/num0                   |                                                                 |               11 |             38 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 |                                                                   | design_1_i/debounce_0/inst/o                                    |               19 |             45 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/colorDetect_0/inst/H_Sum0                              | design_1_i/colorDetect_0/inst/n_0_V_Sum[0]_i_1                  |               15 |             54 |
+|  design_1_i/clk_wiz_0/inst/clk_out1 |                                                                   | design_1_i/debounce_0/inst/o                                    |               20 |             70 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 |                                                                   |                                                                 |               41 |             83 |
++-------------------------------------+-------------------------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+
+
+
