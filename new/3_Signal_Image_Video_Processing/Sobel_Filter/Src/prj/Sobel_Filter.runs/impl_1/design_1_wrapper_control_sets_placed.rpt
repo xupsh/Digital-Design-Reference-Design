@@ -1,0 +1,200 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Sun Mar 13 22:35:46 2016
+| Host         : XSHZHEHENGT30 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |   147 |
+| Minimum Number of register sites lost to control set restrictions |    65 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              71 |           33 |
+| No           | No                    | Yes                    |              45 |           21 |
+| No           | Yes                   | No                     |              12 |            4 |
+| Yes          | No                    | No                     |              21 |           13 |
+| Yes          | No                    | Yes                    |              24 |           12 |
+| Yes          | Yes                   | No                     |              34 |           10 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------+------------------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|             Clock Signal            |                           Enable Signal                          |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++-------------------------------------+------------------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|  design_1_i/clk_wiz_0/inst/clk_out1 |                                                                  |                                                |                1 |              1 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_192_255_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_192_255_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_128_191_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_128_191_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_0_63_7_7_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_0_63_6_6_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_0_63_6_6_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_0_63_7_7_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_63_0_0__0_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_63_0_0__1_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_128_191_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_128_191_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_63_0_0__2_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_63_0_0__3_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_63_0_0__0_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_63_0_0__1_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_63_0_0__2_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_63_0_0__3_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_63_0_0__4_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_63_0_0__5_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_63_0_0__6_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_63_0_0_i_1         |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_192_255_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_192_255_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_63_0_0__4_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_63_0_0__5_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_256_319_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_256_319_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_63_0_0__6_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_63_0_0_i_1         |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_64_127_6_6_i_1    |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_64_127_7_7_i_1    |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_256_319_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_256_319_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_64_127_6_6_i_1    |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_64_127_7_7_i_1    |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_63_0_0__0_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_63_0_0__1_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_63_0_0__2_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_63_0_0__3_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_63_0_0__4_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_63_0_0__5_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_63_0_0__6_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_63_0_0_i_1         |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_0_63_6_6_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_0_63_7_7_i_1      |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_128_191_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_128_191_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_192_255_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_192_255_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_256_319_6_6_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_256_319_7_7_i_1   |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_64_127_6_6_i_1    |                                                |                1 |              2 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_64_127_7_7_i_1    |                                                |                1 |              2 |
+|  design_1_i/sobel_0/inst/line_clk   |                                                                  |                                                |                1 |              2 |
+|  design_1_i/debounce_0/inst/cclk    |                                                                  |                                                |                1 |              3 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_64_127_0_2_i_1    |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_64_127_3_5_i_1    |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_127_0_0_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_127_1_1_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_127_2_2_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_127_3_3_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_127_4_4_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_127_5_5_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_127_6_6_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_0_127_7_7_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_128_255_0_0_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_128_255_1_1_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_128_255_2_2_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_128_255_3_3_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_128_255_4_4_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_128_255_5_5_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_128_255_6_6_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_128_255_7_7_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_0_63_0_2_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_0_63_3_5_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_128_191_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_128_191_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_192_255_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_192_255_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_256_319_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_256_319_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_127_0_0_i_2        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_127_1_1_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_64_127_0_2_i_1    |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer1_reg_r2_64_127_3_5_i_1    |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_127_2_2_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_127_3_3_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_127_0_0_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_127_1_1_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_127_2_2_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_127_3_3_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_127_4_4_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_127_5_5_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_127_6_6_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_0_127_7_7_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_127_4_4_i_2        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_127_5_5_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_127_6_6_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_0_127_7_7_i_1        |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_128_255_0_0_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_128_255_1_1_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_128_255_2_2_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_128_255_3_3_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_128_255_0_0_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_128_255_1_1_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_128_255_2_2_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_128_255_3_3_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_128_255_4_4_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_128_255_5_5_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_128_255_6_6_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_128_255_7_7_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_0_63_0_2_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_0_63_3_5_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_128_255_4_4_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_128_255_5_5_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_128_191_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_128_191_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_128_255_6_6_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_128_255_7_7_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_192_255_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_192_255_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_0_63_0_2_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_0_63_3_5_i_1      |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_256_319_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_256_319_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_128_191_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_128_191_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_64_127_0_2_i_1    |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer2_reg_r2_64_127_3_5_i_1    |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_192_255_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_192_255_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_sobel_reg[7]_i_1                     |                                                |                2 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_256_319_0_2_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/sobel_0/inst/n_0_linebuffer0_reg_r2_256_319_3_5_i_1   |                                                |                1 |              4 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/IICctrl_0/inst/u_I2C_Controller/n_0_SD_COUNTER[5]_i_1 | design_1_i/debounce_0/inst/o                   |                3 |              6 |
+|  design_1_i/clk_wiz_0/inst/clk_out1 |                                                                  | design_1_i/debounce_0/inst/clear               |                2 |              6 |
+|  OV7725_PCLK_IBUF_BUFG              |                                                                  | OV7725_VSYNC_IBUF                              |                2 |              6 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/IICctrl_0/inst/n_0_LUT_INDEX[7]_i_1                   | design_1_i/debounce_0/inst/o                   |                3 |              8 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/vga_0/inst/n_0_line_cnt[9]_i_1                        | design_1_i/debounce_0/inst/o                   |                6 |             10 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 | design_1_i/ram_read_0/inst/address0                              | design_1_i/ram_read_0/inst/n_0_address[16]_i_1 |                5 |             17 |
+|  OV7725_PCLK_IBUF_BUFG              | design_1_i/cam_ov7670_ov7725_0/inst/n_0_we_i_1                   |                                                |               11 |             17 |
+|  OV7725_PCLK_IBUF_BUFG              | design_1_i/cam_ov7670_ov7725_0/inst/p_0_in1_in                   | OV7725_VSYNC_IBUF                              |                5 |             17 |
+|  OV7725_PCLK_IBUF_BUFG              |                                                                  |                                                |               14 |             29 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 |                                                                  |                                                |               16 |             36 |
+|  design_1_i/clk_wiz_0/inst/clk_out2 |                                                                  | design_1_i/debounce_0/inst/o                   |               21 |             45 |
++-------------------------------------+------------------------------------------------------------------+------------------------------------------------+------------------+----------------+
+
+

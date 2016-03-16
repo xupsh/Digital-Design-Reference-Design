@@ -1,0 +1,768 @@
+
+*** Running vivado
+    with args -log OSC_top.vds -m64 -mode batch -messageDb vivado.pb -source OSC_top.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source OSC_top.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property webtalk.parent_dir c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.cache/wt [current_project]
+# set_property parent.project_path c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# set_property ip_repo_paths c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/HDL_source/IP_Catalog [current_project]
+# add_files -quiet c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/clock_synth_1/clock.dcp
+# set_property used_in_implementation false [get_files c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/clock_synth_1/clock.dcp]
+# read_ip c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/debounce_0/debounce_0.xci
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/HDL_source/IP_Catalog'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+# set_property used_in_implementation false [get_files -all c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/debounce_0/debounce_0.dcp]
+# set_property is_locked true [get_files c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/debounce_0/debounce_0.xci]
+# read_ip c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/vga_0/vga_0.xci
+# set_property used_in_implementation false [get_files -all c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/vga_0/vga_0.dcp]
+# set_property is_locked true [get_files c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/vga_0/vga_0.xci]
+# read_ip c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/xadc_0.xci
+# set_property used_in_implementation false [get_files -all c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/xadc_0.dcp]
+# set_property is_locked true [get_files c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/xadc_0.xci]
+# read_verilog -library xil_defaultlib {
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/Fre_Calculate.v
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/Fre_Vopp_mapping_rom.v
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/trigger.v
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/vga_initials.v
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/waveform_mapping_rom.v
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/waveform_ram.v
+#   c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v
+# }
+# read_xdc c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/constrs_1/imports/Constraint/oscilloscope.xdc
+# set_property used_in_implementation false [get_files c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/constrs_1/imports/Constraint/oscilloscope.xdc]
+# read_xdc dont_touch.xdc
+# set_property used_in_implementation false [get_files dont_touch.xdc]
+# catch { write_hwdef -file OSC_top.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top OSC_top -part xc7a35tcpg236-1
+Command: synth_design -top OSC_top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_out1 is not allowed [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:35]
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_out2 is not allowed [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:36]
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_out3 is not allowed [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:37]
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_out4 is not allowed [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:38]
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_out5 is not allowed [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:39]
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_out6 is not allowed [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:40]
+WARNING: [Synth 8-2611] redeclaration of ansi port clk_out7 is not allowed [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:41]
+WARNING: [Synth 8-976] clk_vga has already been declared [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:118]
+WARNING: [Synth 8-2654] second declaration of clk_vga ignored [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:118]
+INFO: [Synth 8-994] clk_vga is declared here [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:39]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 257.547 ; gain = 98.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'OSC_top' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:23]
+INFO: [Synth 8-638] synthesizing module 'char_rom_mapping' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:23]
+	Parameter data0 bound to: 256'b0111111111111110010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100111111111111110 
+	Parameter data1 bound to: 256'b0000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000000000011000000000000001100000000000000110000000 
+	Parameter data2 bound to: 256'b0000011111110000000100000000100000100000000001000000000000000010000000000000001000000000000001000000000000001000000000000001000000000000001000000000000001000000000000001000000000000001000000000000001000000000000001000000000000001000000000000011111111111110 
+	Parameter data3 bound to: 256'b0000011111110000000100000000100000100000000001000000000000000010000000000000001000000000000001000000000000001000000000000010000000000000000010000000000000000100000000000000001000000000000000100100000000000100001000000000100000010000000100000000011111100000 
+	Parameter data4 bound to: 256'b0100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010011111111111111000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010 
+	Parameter data5 bound to: 256'b0111111111111110010000000000000001000000000000000100000000000000010000000000000001000000000000000100011111000000010110000010000001100000000100000000000000001000000000000000010001000000000000100010000000000100000100000000100000001000000100000000011111100000 
+	Parameter data6 bound to: 256'b0000000100000000000000100000000000000100000000000000100000000000000100000000000000100000000000000100011111000000010110000010000001100000000100000100000000001000010000000000010001000000000000100010000000000100000100000000100000001000000100000000011111100000 
+	Parameter data7 bound to: 256'b0111111111111110000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010 
+	Parameter data8 bound to: 256'b0111111111111110010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010011111111111111001000000000000100100000000000010010000000000001001000000000000100100000000000010010000000000001001000000000000100111111111111110 
+	Parameter data9 bound to: 256'b0111111111111110010000000000001001000000000000100100000000000010010000000000001001000000000000100100000000000010011111111111111000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100111111111111110 
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:320]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:339]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:357]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:374]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:391]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:408]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:425]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:442]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:459]
+INFO: [Synth 8-256] done synthesizing module 'char_rom_mapping' (1#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:23]
+INFO: [Synth 8-638] synthesizing module 'waveform_mapping_rom' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/waveform_mapping_rom.v:23]
+	Parameter data bound to: 32768'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000... (message truncated)
+INFO: [Synth 8-256] done synthesizing module 'waveform_mapping_rom' (2#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/waveform_mapping_rom.v:23]
+INFO: [Synth 8-638] synthesizing module 'Fre_Vopp_mapping_rom' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/Fre_Vopp_mapping_rom.v:23]
+	Parameter data bound to: 4096'b0000000111111111111111000000000000000000000000000000000000000000000000011111111111111100000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000111000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000111000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000111000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000111000000000000000000000000000000000000000000000000000000000000011100000000000000000000000000000000000000000000000000000000000001110000000000000000000000000000000000000000000000000000000000000111111111111111000000000000000000000000000000000000000000000000011111111111111100000001001000000001011111111110100000111100000001110000000000000000000100100000000100000000001010000011110000000111000000000000000000100010000000010000000001000100001111000000011100000000000000000010001000000001000000001000010000111100000001110000000000000000010000100000000100000001000000100000000000000111000000000000000001000010000000010000000100000010000000000000011100000000000000000100001000000001000000100000001000000000000001110000000000000000010000111111111100000100000000100000000000000111000000000000000001000010000000010000010000000010000000000000011100000000000000000100001000000001000010000000001000000000000001110000000000000000010000100000000100001000000000100000000000000111000000000000000001000010000000010001000000000010000000000000011100000000000000000010001000000001000100000000010000111100000001110000000000000000001000100000000100100000000001000011110000000111000000000000000000010010000000010010000000001000001111000000011100000000000000000001001000000001011111111110100000111111000000000001100000000000000000000000000000000000000000000000001100000000000110000000000000000000000000000000000000000000000000110000000000011000000000000000000000000000000000000000000000000011000000000001100000000000000000000000000000000000000000000000001100000000000110000000000000000000000000000000000000000000000000110000000000011000000000000000000000000000000000000000000000000011000000000001100000000000000000000000000000000000000000000000001100000000000110000000000000000000000000000000000000000000000000110000000000011000000000000000000000000000000000000000000000000011000000000001100000000000000000000000000000000000000000000000001100000000000110000000000000000000000000000000000000000000000000110000000000011000000000000000000000000000000000000000000000000011000000000001100000000000000000000000000000000000000000000000001100000000000110000000000000000000000000000000000000000000000000110000000000011000000000000000000000000000000000000000000000000011000000000001100000000000000000000000000000000000000000000000000110000000001100000000000000010001110001110001000000010100001111011000000000110000000000000001001000101000100100000001010000111101100000000011011000011000001001000001000001010000000100100011110011000000011001010001010000100100000100000101000000010010001111001100000001100100100100100100010000010000010100000001000100000000110000000110010001010001010001000001000001010000000100010000000001100000110001000101000101000100000100000100100000100001000000000110000011000100100100100100010000010000010010000010000100000000011000001100010100010100010001000001000001001000001000010000000000110001100001100001100001000100000100000100100000100001000000000011000110000100000100000100010000010000010001000100000100000000001100011000010000010000010001000001000001000100010000010000000000011011000001000001000000100100000100000100010001000010001111000001101100000100000100000010010000010000010000101000001000111100000011100000010000010000000101000001000001000001000001000011110000000100000001000001000000010100000100000100000100000100001111 
+INFO: [Synth 8-256] done synthesizing module 'Fre_Vopp_mapping_rom' (3#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/Fre_Vopp_mapping_rom.v:23]
+INFO: [Synth 8-638] synthesizing module 'vga_0' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/realtime/vga_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'vga_0' (4#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/realtime/vga_0_stub.v:7]
+WARNING: [Synth 8-689] width (10) of port connection 'vga_h_cnt' does not match port width (12) of module 'vga_0' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:130]
+WARNING: [Synth 8-689] width (10) of port connection 'vga_v_cnt' does not match port width (11) of module 'vga_0' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:131]
+WARNING: [Synth 8-387] label required on module instance [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:135]
+INFO: [Synth 8-638] synthesizing module 'vga_initials' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/vga_initials.v:1]
+	Parameter hbp bound to: 10'b0000000000 
+	Parameter vbp bound to: 10'b0000011111 
+	Parameter W bound to: 600 - type: integer 
+	Parameter H bound to: 128 - type: integer 
+	Parameter W_F bound to: 64 - type: integer 
+	Parameter H_F bound to: 64 - type: integer 
+	Parameter W_Fre_u bound to: 16 - type: integer 
+	Parameter H_Fre_u bound to: 16 - type: integer 
+	Parameter W_Fre_d bound to: 16 - type: integer 
+	Parameter H_Fre_d bound to: 16 - type: integer 
+	Parameter W_Fre_h bound to: 16 - type: integer 
+	Parameter H_Fre_h bound to: 16 - type: integer 
+	Parameter W_Fre_t bound to: 16 - type: integer 
+	Parameter H_Fre_t bound to: 16 - type: integer 
+	Parameter W_Fre_m bound to: 16 - type: integer 
+	Parameter H_Fre_m bound to: 16 - type: integer 
+	Parameter W_Fre_l bound to: 16 - type: integer 
+	Parameter H_Fre_l bound to: 16 - type: integer 
+	Parameter W_Vopp_h bound to: 16 - type: integer 
+	Parameter H_Vopp_h bound to: 16 - type: integer 
+	Parameter W_Vopp_d bound to: 16 - type: integer 
+	Parameter H_Vopp_d bound to: 16 - type: integer 
+	Parameter W_Vopp_u bound to: 16 - type: integer 
+	Parameter H_Vopp_u bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_initials' (5#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/vga_initials.v:1]
+WARNING: [Synth 8-387] label required on module instance [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:170]
+INFO: [Synth 8-638] synthesizing module 'clock_control' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:23]
+INFO: [Synth 8-638] synthesizing module 'clock' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/realtime/clock_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'clock' (6#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/realtime/clock_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'debounce_0' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/realtime/debounce_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'debounce_0' (7#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/realtime/debounce_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'clock_control' (8#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/clock_control.v:23]
+INFO: [Synth 8-638] synthesizing module 'xadc_0' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/realtime/xadc_0_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'xadc_0' (9#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/realtime/xadc_0_stub.v:7]
+INFO: [Synth 8-638] synthesizing module 'trigger' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/trigger.v:22]
+INFO: [Synth 8-256] done synthesizing module 'trigger' (10#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/trigger.v:22]
+INFO: [Synth 8-638] synthesizing module 'waveform_ram' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/waveform_ram.v:21]
+INFO: [Synth 8-256] done synthesizing module 'waveform_ram' (11#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/waveform_ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Fre_Calculate' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/Fre_Calculate.v:22]
+INFO: [Synth 8-256] done synthesizing module 'Fre_Calculate' (12#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/Fre_Calculate.v:22]
+INFO: [Synth 8-256] done synthesizing module 'OSC_top' (13#1) [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/OSC_top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 281.660 ; gain = 122.395
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 281.660 ; gain = 122.395
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/dcp/clock_in_context.xdc] for cell 'nolabel_line170/u_clock'
+Finished Parsing XDC File [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/dcp/clock_in_context.xdc] for cell 'nolabel_line170/u_clock'
+Parsing XDC File [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/constrs_1/imports/Constraint/oscilloscope.xdc]
+Finished Parsing XDC File [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/constrs_1/imports/Constraint/oscilloscope.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/constrs_1/imports/Constraint/oscilloscope.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/OSC_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/OSC_top_propImpl.xdc] to anoth XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 585.719 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for mclk. (constraint file  c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/.Xil/Vivado-14712-XSHZHEHENGT30/dcp/clock_in_context.xdc, line 9).
+Applied set_property DONT_TOUCH = true for nolabel_line170/u_debounce. (constraint file  c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/dont_touch.xdc, line 7).
+Applied set_property DONT_TOUCH = true for u_vga. (constraint file  c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/dont_touch.xdc, line 10).
+Applied set_property DONT_TOUCH = true for u_xadc. (constraint file  c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/synth_1/dont_touch.xdc, line 13).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+ROM "rom_fre_d" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom_fre_u" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom_fre_h" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom_fre_t" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom_fre_m" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom_fre_l" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom_vopp_h" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom_vopp_d" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom_vopp_u" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom0" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom6" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom7" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom8" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom9" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "rom" won't be mapped to RAM because it is too sparse.
+ROM "rom" won't be mapped to RAM because it is too sparse.
+ROM "max_reg" won't be mapped to RAM because it is too sparse.
+ROM "b1" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "b2" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "b3" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "b4" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+ROM "b5" won't be mapped to Block RAM because address size (4) smaller than threshold (5) 
+WARNING: [Synth 8-327] inferring latch for variable 'rom_fre_u_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:340]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_fre_d_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:321]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_fre_h_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:358]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_fre_t_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:375]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_fre_m_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:392]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_fre_l_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:409]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_vopp_h_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:426]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_vopp_d_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:443]
+WARNING: [Synth 8-327] inferring latch for variable 'rom_vopp_u_reg' [c:/Users/zhehengt/Desktop/XUP_drafts_V1.2/program/Basys3_Git/B3_Git_Release/Projects/4_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/imports/HDL_source/char_rom_mapping.v:460]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 7     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 11    
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	               5K Bit         RAMs := 1     
++---ROMs : 
+	                              ROMs := 3     
++---Muxes : 
+	 257 Input    128 Bit        Muxes := 1     
+	  65 Input     64 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 90    
+	  11 Input     16 Bit        Muxes := 9     
+	   2 Input      8 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	  11 Input      1 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module OSC_top 
+Detailed RTL Component Info : 
+Module char_rom_mapping 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 90    
+	  11 Input     16 Bit        Muxes := 9     
+	  11 Input      1 Bit        Muxes := 9     
+Module waveform_mapping_rom 
+Detailed RTL Component Info : 
++---Muxes : 
+	 257 Input    128 Bit        Muxes := 1     
+Module Fre_Vopp_mapping_rom 
+Detailed RTL Component Info : 
++---Muxes : 
+	  65 Input     64 Bit        Muxes := 1     
+Module vga_initials 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+Module clock_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module trigger 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 4     
+Module waveform_ram 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 7     
++---RAMs : 
+	               5K Bit         RAMs := 1     
++---ROMs : 
+	                              ROMs := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Fre_Calculate 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 6     
++---Registers : 
+	                4 Bit    Registers := 6     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  11 Input      4 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+ROM "max_reg" won't be mapped to RAM because it is too sparse.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 585.719 ; gain = 426.453
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: 
++------------+-----------------------+--------------------+----------------------+------------------+-------------------+
+|Module Name | RTL Object            | Inference Criteria | Size (depth X width) | Primitives       | Hierarchical Name | 
++------------+-----------------------+--------------------+----------------------+------------------+-------------------+
+|OSC_top     | u_ram/WaveFormRam_reg | Implied            | 1 K X 8              | RAM128X1D x 40   | OSC_top/ram__1    | 
++------------+-----------------------+--------------------+----------------------+------------------+-------------------+
+
+Note: The table shows RAMs generated at current stage. Some RAM generation could be reversed due to later optimizations. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the hierarchical modules names of the RAM and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_fre_u_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_fre_d_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_fre_h_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_fre_t_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_fre_m_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_fre_l_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_vopp_h_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_vopp_d_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_mapping/\rom_vopp_u_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_u_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_u_reg[15] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_d_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_d_reg[15] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_h_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_h_reg[15] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_t_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_t_reg[15] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_m_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_m_reg[15] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_l_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_fre_l_reg[15] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_vopp_h_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_vopp_h_reg[15] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_vopp_d_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_vopp_d_reg[15] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_vopp_u_reg[0] ) is unused and will be removed from module char_rom_mapping.
+WARNING: [Synth 8-3332] Sequential element (\rom_vopp_u_reg[15] ) is unused and will be removed from module char_rom_mapping.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.719 ; gain = 426.453
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: Moved 7 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 585.719 ; gain = 426.453
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[1] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[2] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[3] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[4] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[5] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[6] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[7] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[8] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[9] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[10] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[11] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[12] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[13] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_u_reg[14] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[1] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[2] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[3] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[4] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[5] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[6] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[7] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[8] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[9] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[10] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[11] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[12] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[13] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_d_reg[14] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[1] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[2] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[3] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[4] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[5] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[6] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[7] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[8] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[9] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[10] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[11] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[12] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[13] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_h_reg[14] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[1] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[2] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[3] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[4] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[5] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[6] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[7] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[8] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[9] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[10] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[11] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[12] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[13] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_t_reg[14] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[1] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[2] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[3] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[4] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[5] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[6] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[7] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[8] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[9] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[10] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[11] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[12] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[13] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_m_reg[14] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[1] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[2] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[3] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[4] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[5] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[6] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[7] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[8] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[9] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[10] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[11] ) is unused and will be removed from module OSC_top.
+WARNING: [Synth 8-3332] Sequential element (\u_mapping/rom_fre_l_reg[12] ) is unused and will be removed from module OSC_top.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4480] The timing for the instance \u_ram/vopp_reg_rep_rep  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \u_ram/vopp_reg_rep  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance \u_ram/vopp_reg_rep__0  (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 607.000 ; gain = 447.734
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 607.000 ; gain = 447.734
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 607.000 ; gain = 447.734
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 607.000 ; gain = 447.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |vga_0         |         1|
+|2     |xadc_0        |         1|
+|3     |clock         |         1|
+|4     |debounce_0    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |clock      |     1|
+|2     |debounce_0 |     1|
+|3     |vga_0      |     1|
+|4     |xadc_0     |     1|
+|5     |BUFG       |     1|
+|6     |CARRY4     |    14|
+|7     |INV        |     1|
+|8     |LUT1       |    37|
+|9     |LUT2       |    59|
+|10    |LUT3       |    47|
+|11    |LUT4       |   145|
+|12    |LUT5       |   138|
+|13    |LUT6       |   460|
+|14    |MUXF7      |    67|
+|15    |MUXF8      |    12|
+|16    |RAM128X1D  |    40|
+|17    |RAMB18E1   |     1|
+|18    |RAMB18E1_1 |     1|
+|19    |RAMB18E1_2 |     1|
+|20    |FDRE       |   158|
+|21    |FDSE       |     6|
+|22    |LD         |    42|
+|23    |IBUF       |     9|
+|24    |OBUF       |    10|
++------+-----------+------+
+
+Report Instance Areas: 
++------+------------------+-----------------+------+
+|      |Instance          |Module           |Cells |
++------+------------------+-----------------+------+
+|1     |top               |                 |  1363|
+|2     |  nolabel_line170 |clock_control    |    41|
+|3     |  u_CalFre        |Fre_Calculate    |   450|
+|4     |  u_mapping       |char_rom_mapping |   108|
+|5     |  u_ram           |waveform_ram     |   466|
+|6     |  u_tri           |trigger          |    60|
++------+------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 607.000 ; gain = 447.734
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 111 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:23 . Memory (MB): peak = 607.000 ; gain = 99.777
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 607.000 ; gain = 447.734
+INFO: [Project 1-571] Translating synthesized netlist
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'u_ram/vopp_reg_rep_rep' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'u_ram/vopp_reg_rep' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'u_ram/vopp_reg_rep__0' of type 'RAMB18E1' is 'VIRTEX6'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist or constraint file.
+INFO: [Netlist 29-17] Analyzing 108 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 24 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 82 instances were transformed.
+  LD => LDCE: 42 instances
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 40 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 125 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 607.422 ; gain = 409.191
+# write_checkpoint -noxdef OSC_top.dcp
+# catch { report_utilization -file OSC_top_utilization_synth.rpt -pb OSC_top_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 607.422 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 21 17:10:22 2015...
