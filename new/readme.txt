@@ -18,8 +18,8 @@ Library
 --DA	
 --OLED	
 
-Project	工程
-1.数字逻辑
+Project	
+1.Logic design
 --Adder_full		
 --Bin2BCD		
 --Comparator		
@@ -37,12 +37,12 @@ Project	工程
 --Single_cycle_p	
 --Traffic_Light		
 
-2.仪表与控制
+2.Instrument & controller
 --Ball_Tracking		
 --Oscilloscope		
 --Signal generator	
 
-3.图像处理
+3.Image processing
 --Color recognition	
 --Image binarization	
 --Sobel filter		
