@@ -1,0 +1,87 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Mon Oct 31 21:20:04 2016
+| Host         : XSHZHEHENGT30 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file MIPS_CPU_wrapper_control_sets_placed.rpt
+| Design       : MIPS_CPU_wrapper
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    34 |
+| Minimum Number of register sites lost to control set restrictions |   109 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |              13 |            7 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              64 |           23 |
+| Yes          | No                    | Yes                    |              96 |           62 |
+| Yes          | Yes                   | No                     |              37 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------+------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+|             Clock Signal            |                     Enable Signal                    |                  Set/Reset Signal                 | Slice Load Count | Bel Load Count |
++-------------------------------------+------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 |                                                      |                                                   |                1 |              1 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[3][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][10]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[3][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][14]_i_1   |                4 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[3][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][18]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[3][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][22]_i_1   |                1 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[3][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][26]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[3][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][30]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[3][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][31]_i_2   |                4 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[3][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][6]_i_1    |                2 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[1][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][10]_i_1   |                4 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[1][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][14]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[1][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][18]_i_1   |                4 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[1][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][22]_i_1   |                1 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[1][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][26]_i_1   |                2 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[1][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][30]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[1][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][31]_i_2   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[1][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][6]_i_1    |                1 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[2][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][10]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[2][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][14]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[2][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][18]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[2][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][22]_i_1   |                1 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[2][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][26]_i_1   |                2 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[2][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][30]_i_1   |                3 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[2][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][31]_i_2   |                2 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[2][31]_i_1       | MIPS_CPU_i/REGFILE_0/inst/n_0_reg32[31][6]_i_1    |                1 |              4 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 |                                                      | MIPS_CPU_i/KEY2INST_0/inst/n_0_st[4]_i_2          |                2 |              5 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/KEY2INST_0/inst/n_0_rom[3][27]_i_1        | MIPS_CPU_i/KEY2INST_0/inst/n_0_rom[2][10]_i_1     |                2 |              5 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 |                                                      | MIPS_CPU_i/DATAPATH_0/inst/n_0_pc_o[31]_i_2       |                5 |              8 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/KEY2INST_0/inst/n_0_data_now[0][7]_i_2    | MIPS_CPU_i/KEY2INST_0/inst/n_0_data_now[0][7]_i_1 |                2 |              8 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/KEY2INST_0/inst/n_0_data_now[1][7]_i_2    | MIPS_CPU_i/KEY2INST_0/inst/n_0_data_now[1][7]_i_1 |                4 |              8 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/KEY2INST_0/inst/n_0_data_now[2][7]_i_2    | MIPS_CPU_i/KEY2INST_0/inst/n_0_data_now[2][7]_i_1 |                2 |              8 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/KEY2INST_0/inst/n_0_data_now[3][7]_i_2    | MIPS_CPU_i/KEY2INST_0/inst/n_0_data_now[3][7]_i_1 |                2 |              8 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/SHOW_ON_LED_0/inst/n_0_alu_result[15]_i_2 |                                                   |               10 |             16 |
+|  MIPS_CPU_i/clk_wiz_0/inst/clk_out1 | MIPS_CPU_i/KEY2INST_0/inst/n_0_rom[3][27]_i_1        |                                                   |               13 |             48 |
++-------------------------------------+------------------------------------------------------+---------------------------------------------------+------------------+----------------+
+
+

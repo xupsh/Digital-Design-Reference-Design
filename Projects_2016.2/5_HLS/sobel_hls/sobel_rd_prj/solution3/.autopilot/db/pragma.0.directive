@@ -1,0 +1,97 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="ap_linebuffer" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="M"/>
+<option name="complete" positionalBoolean="type" value=""/>
+<option name="dim" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="ap_linebuffer&lt;T, LROW, LCOL&gt;::shift_up" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_linebuffer&lt;T, LROW, LCOL&gt;::shift_up" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_linebuffer&lt;T, LROW, LCOL&gt;::shift_down" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_linebuffer&lt;T, LROW, LCOL&gt;::shift_down" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_linebuffer&lt;T, LROW, LCOL&gt;::insert_bottom" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_linebuffer&lt;T, LROW, LCOL&gt;::insert_top" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_linebuffer&lt;T, LROW, LCOL&gt;::getval" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_window" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="M"/>
+<option name="complete" positionalBoolean="type" value=""/>
+<option name="dim" value="0"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_right" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_right" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_right" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_left" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_left" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_left" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_up" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_up" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_up" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_down" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_down" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::shift_down" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::insert" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_window&lt;T, LROW, LCOL&gt;::getval" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="sobel_filter" label="">
+<pragma name="LOOP_FLATTEN">
+<option name="off" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="sobel_filter" label="">
+<pragma name="DEPENDENCE">
+<option name="variable" value="&amp;buff_A"/>
+<option name="false" positionalBoolean="dependent" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="sobel_filter" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

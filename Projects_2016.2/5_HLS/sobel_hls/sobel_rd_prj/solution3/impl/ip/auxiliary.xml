@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="sobel_filter" xd:componentRef="sobel_filter" xd:initiationInterval="x" xd:clockPeriod="40.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="rows" xd:originalName="rows" xd:direction="in" xd:interfaceRef="rows" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="cols" xd:originalName="cols" xd:direction="in" xd:interfaceRef="cols" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="32"/>
+  <xd:arg xd:name="inter_pix_V_q0" xd:originalName="inter_pix_V_q0" xd:direction="in" xd:interfaceRef="inter_pix_V_q0" xd:busTypeRef="ap_memory" xd:arraySize="2073600" xd:dataWidth="24"/>
+  <xd:arg xd:name="out_pix_V_d0" xd:originalName="out_pix_V_d0" xd:direction="out" xd:interfaceRef="out_pix_V_d0" xd:busTypeRef="ap_memory" xd:arraySize="2073600" xd:dataWidth="24"/>
+  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
+  <xd:resourceEstimates xd:LUT="509" xd:FF="261" xd:BRAM="2" xd:DSP="1"/>
+</xd:acceleratorMap>

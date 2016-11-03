@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Oct 31 21:17:03 2016
+# Process ID: 5140
+# Log file: e:/Github/xupsh/Basys3-Git/Projects_2016.2/1_Logic_Design/3_State_Machine/Single_Cycle_32bits_processor/src/prj/MIPS_CPU.runs/impl_1/MIPS_CPU_wrapper.vdi
+# Journal file: e:/Github/xupsh/Basys3-Git/Projects_2016.2/1_Logic_Design/3_State_Machine/Single_Cycle_32bits_processor/src/prj/MIPS_CPU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MIPS_CPU_wrapper.tcl -notrace

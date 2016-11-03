@@ -1,0 +1,31 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port UART -pg 1 -y 20 -defaultsOSRD
+preplace port clk_in1 -pg 1 -y 20 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -y 1120 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -y 500 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 1 -y 650 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 1 -y 270 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 1 -y 970 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 370 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 1 -y 820 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 0 2 80 1190 560
+preplace netloc microblaze_0_Clk 1 0 2 50 420 580
+preplace netloc clk_in1_1 1 0 1 30
+preplace netloc microblaze_0_ilmb_1 1 0 2 90 1060 570
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 0 2 40 1170 550
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 0 2 100 1070 560
+preplace netloc S00_AXI_1 1 0 2 70 430 580
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 0 2 90 440 590
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 0 2 60 1180 580
+preplace netloc axi_uartlite_0_UART 1 1 1 590
+preplace netloc axi_interconnect_0_M00_AXI 1 0 2 100 200 580
+preplace netloc microblaze_0_dlmb_1 1 0 2 100 730 550
+preplace netloc microblaze_0_debug 1 0 2 100 570 570
+preplace netloc mdm_1_debug_sys_rst 1 0 2 70 560 550
+levelinfo -pg 1 10 330 610 -top -30 -bot 1200
+",
+}
+0

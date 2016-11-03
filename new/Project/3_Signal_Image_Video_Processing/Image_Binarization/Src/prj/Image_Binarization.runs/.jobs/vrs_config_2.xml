@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="impl_1" LaunchDir="e:/Basys3/Projects/5_Signal_Image_Video_Processing/Image_Binarization/Src/prj/Image_Binarization.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream"/>
-</Runs>
-

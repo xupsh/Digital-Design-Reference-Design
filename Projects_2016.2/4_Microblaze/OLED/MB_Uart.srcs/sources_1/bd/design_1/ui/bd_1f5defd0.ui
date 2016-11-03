@@ -1,0 +1,52 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port LED1 -pg 1 -y 590 -defaultsOSRD
+preplace port DC -pg 1 -y 290 -defaultsOSRD
+preplace port clk_in1 -pg 1 -y 150 -defaultsOSRD
+preplace port LED2 -pg 1 -y 740 -defaultsOSRD
+preplace port SPI_0 -pg 1 -y 480 -defaultsOSRD
+preplace port reset -pg 1 -y 450 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 5 -y 370 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -y 1000 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 6 -y 290 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 6 -y 450 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -y 630 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 6 -y 740 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 6 -y 590 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 3 -y 600 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -y 240 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 5 -y 600 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 460 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 4 -y 760 -defaultsOSRD
+preplace inst axi_quad_spi_0 -pg 1 -lvl 5 -y 150 -defaultsOSRD
+preplace netloc axi_quad_spi_0_SPI_0 1 5 2 N 140 NJ
+preplace netloc axi_intc_0_interrupt 1 2 4 500 460 NJ 460 NJ 460 2220
+preplace netloc xlconstant_1_dout 1 2 3 480 720 NJ 580 NJ
+preplace netloc mdm_1_MBDEBUG_0 1 1 2 300 590 NJ
+preplace netloc microblaze_0_Clk 1 1 5 NJ 450 470 710 1030 560 1560 450 2270
+preplace netloc clk_in1_1 1 0 1 100
+preplace netloc axi_gpio_3_GPIO 1 6 1 N
+preplace netloc axi_interconnect_0_M02_AXI 1 3 3 NJ 230 NJ 230 2280
+preplace netloc microblaze_0_ilmb_1 1 3 1 1000
+preplace netloc axi_interconnect_0_M04_AXI 1 3 3 NJ 270 NJ 270 2250
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 4 490 480 NJ 480 NJ 480 2230
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 3 3 1060 660 NJ 700 2210
+preplace netloc S00_AXI_1 1 2 2 490 20 990
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 4 480 10 NJ 10 1570 290 2240
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 4 500 700 NJ 670 NJ 690 2220
+preplace netloc axi_gpio_0_GPIO 1 6 1 N
+preplace netloc axi_interconnect_0_M05_AXI 1 3 2 NJ 290 1550
+preplace netloc axi_interconnect_0_M00_AXI 1 3 2 NJ 120 N
+preplace netloc clk_wiz_0_clk_out2 1 1 4 N 470 NJ 470 NJ 470 NJ
+preplace netloc axi_gpio_2_GPIO 1 6 1 N
+preplace netloc axi_interconnect_0_M01_AXI 1 3 3 NJ 210 NJ 240 2270
+preplace netloc microblaze_0_dlmb_1 1 3 1 1020
+preplace netloc axi_gpio_1_GPIO 1 6 1 N
+preplace netloc axi_quad_spi_0_ip2intc_irpt 1 4 2 1580 260 2250
+preplace netloc mdm_1_debug_sys_rst 1 1 4 NJ 640 NJ 690 NJ 620 N
+preplace netloc axi_interconnect_0_M03_AXI 1 3 3 NJ 250 NJ 250 2260
+levelinfo -pg 1 80 200 400 770 1450 2041 2390 2510 -top 0 -bot 1050
+",
+}
+0

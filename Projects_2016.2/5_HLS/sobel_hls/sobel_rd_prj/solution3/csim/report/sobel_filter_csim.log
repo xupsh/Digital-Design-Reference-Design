@@ -1,0 +1,6 @@
+   Compiling ../../../../sobel.cpp in debug mode
+   Generating csim.exe
+Files result_1080p_golden.bmp and result_1080p.bmp differ
+Simulation Complete
+Output image has mismatches with reference output image!
+@E [SIM-1] 'csim_design' failed: nonzero return value.

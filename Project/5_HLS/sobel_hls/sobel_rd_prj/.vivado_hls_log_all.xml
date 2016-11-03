@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="@E [SIM-1] 'csim_design' failed: nonzero return value.&#xD;&#xA;4&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/hongyuc/Desktop/sobel_new-old/xapp890/sobel_rd_prj/solution2/csim.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/hongyuc/Desktop/sobel_new-old/xapp890/sobel_rd_prj/solution2/csim.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="sobel_rd_prj" solutionName="solution2" date="2016-04-12T11:01:29.850+0800"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="sobel_rd_prj" solutionName="solution2" date="2016-04-12T11:01:29.676+0800"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SYN-561] Cannot apply I/O mode 'ap_none' on port 'out_pix_V'; changing to the default 'ap_memory' mode." projectName="sobel_rd_prj" solutionName="solution3" date="2016-04-18T17:44:19.309+0800" type="Warning"/>
+        <logs message="@W [SYN-561] Cannot apply I/O mode 'ap_none' on port 'inter_pix_V'; changing to the default 'ap_memory' mode." projectName="sobel_rd_prj" solutionName="solution3" date="2016-04-18T17:44:19.274+0800" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'buff_A.M[1]' (sobel.cpp:130)." projectName="sobel_rd_prj" solutionName="solution3" date="2016-04-18T17:44:19.209+0800" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'buff_A.M[0]' (sobel.cpp:130)." projectName="sobel_rd_prj" solutionName="solution3" date="2016-04-18T17:44:19.131+0800" type="Warning"/>
+        <logs message="@W [SYN-561] Cannot apply I/O mode 'ap_none' on port 'out_pix_V'; changing to the default 'ap_memory' mode." projectName="sobel_rd_prj" solutionName="solution2" date="2016-04-12T11:00:52.977+0800" type="Warning"/>
+        <logs message="@W [SYN-561] Cannot apply I/O mode 'ap_none' on port 'inter_pix_V'; changing to the default 'ap_memory' mode." projectName="sobel_rd_prj" solutionName="solution2" date="2016-04-12T11:00:52.963+0800" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'buff_A.M[2]' (sobel.cpp:130)." projectName="sobel_rd_prj" solutionName="solution2" date="2016-04-12T11:00:52.911+0800" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'buff_A.M[1]' (sobel.cpp:130)." projectName="sobel_rd_prj" solutionName="solution2" date="2016-04-12T11:00:52.846+0800" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'buff_A.M[0]' (sobel.cpp:130)." projectName="sobel_rd_prj" solutionName="solution2" date="2016-04-12T11:00:52.837+0800" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'buff_A.M[2]' (sobel.cpp:130)." projectName="sobel_rd_prj" solutionName="solution1" date="2016-04-11T14:59:44.110+0800" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'buff_A.M[1]' (sobel.cpp:130)." projectName="sobel_rd_prj" solutionName="solution1" date="2016-04-11T14:59:44.042+0800" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false inter dependency for variable 'buff_A.M[0]' (sobel.cpp:130)." projectName="sobel_rd_prj" solutionName="solution1" date="2016-04-11T14:59:44.035+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

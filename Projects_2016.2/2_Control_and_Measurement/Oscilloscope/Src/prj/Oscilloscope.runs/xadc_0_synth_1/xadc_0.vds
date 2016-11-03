@@ -1,0 +1,417 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Nov 01 08:26:08 2016
+# Process ID: 6896
+# Current directory: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/xadc_0_synth_1
+# Command line: vivado.exe -log xadc_0.vds -mode batch -messageDb vivado.pb -notrace -source xadc_0.tcl
+# Log file: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/xadc_0_synth_1/xadc_0.vds
+# Journal file: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/xadc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source xadc_0.tcl -notrace
+Command: synth_design -top xadc_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/xadc_0.xci
+
+INFO: [IP_Flow 19-2162] IP 'xadc_0' is locked:
+* IP 'xadc_0' contains one or more locked subcores.
+* IP definition 'xadc_v1_0 (1.0)' relies on the following subcore(s) that were not found in the IP Catalog: xilinx.com:ip:xadc_wiz:3.0
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1296 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:45 ; elapsed = 00:01:03 . Memory (MB): peak = 329.500 ; gain = 122.414
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'xadc_0' [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/synth/xadc_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xadc' [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/new/xadc.v:23]
+	Parameter init_read bound to: 0 - type: integer 
+	Parameter read_waitdrdy bound to: 1 - type: integer 
+	Parameter write_waitdrdy bound to: 3 - type: integer 
+	Parameter read_reg00 bound to: 4 - type: integer 
+	Parameter reg00_waitdrdy bound to: 5 - type: integer 
+	Parameter read_reg01 bound to: 6 - type: integer 
+	Parameter reg01_waitdrdy bound to: 7 - type: integer 
+	Parameter read_reg02 bound to: 8 - type: integer 
+	Parameter reg02_waitdrdy bound to: 9 - type: integer 
+	Parameter read_reg06 bound to: 10 - type: integer 
+	Parameter reg06_waitdrdy bound to: 11 - type: integer 
+	Parameter read_reg10 bound to: 12 - type: integer 
+	Parameter reg10_waitdrdy bound to: 13 - type: integer 
+	Parameter read_reg11 bound to: 14 - type: integer 
+	Parameter reg11_waitdrdy bound to: 15 - type: integer 
+	Parameter read_reg12 bound to: 16 - type: integer 
+	Parameter reg12_waitdrdy bound to: 17 - type: integer 
+	Parameter read_reg13 bound to: 18 - type: integer 
+	Parameter reg13_waitdrdy bound to: 19 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2016.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (1#1) [C:/Xilinx/Vivado/2016.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'xadc_wiz_0' [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0.v:52]
+INFO: [Synth 8-638] synthesizing module 'XADC' [C:/Xilinx/Vivado/2016.2/scripts/rt/data/unisim_comp.v:44683]
+	Parameter INIT_40 bound to: 16'b1001000000000000 
+	Parameter INIT_41 bound to: 16'b0010000111110000 
+	Parameter INIT_42 bound to: 16'b0000010000000000 
+	Parameter INIT_43 bound to: 16'b0000000000000000 
+	Parameter INIT_44 bound to: 16'b0000000000000000 
+	Parameter INIT_45 bound to: 16'b0000000000000000 
+	Parameter INIT_46 bound to: 16'b0000000000000000 
+	Parameter INIT_47 bound to: 16'b0000000000000000 
+	Parameter INIT_48 bound to: 16'b0100011100000001 
+	Parameter INIT_49 bound to: 16'b1100000011000000 
+	Parameter INIT_4A bound to: 16'b0000000000000000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000000000000000 
+	Parameter INIT_4D bound to: 16'b0000000000000000 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter INIT_50 bound to: 16'b1011010111101101 
+	Parameter INIT_51 bound to: 16'b0101011111100100 
+	Parameter INIT_52 bound to: 16'b1010000101000111 
+	Parameter INIT_53 bound to: 16'b1100101000110011 
+	Parameter INIT_54 bound to: 16'b1010100100111010 
+	Parameter INIT_55 bound to: 16'b0101001011000110 
+	Parameter INIT_56 bound to: 16'b1001010101010101 
+	Parameter INIT_57 bound to: 16'b1010111001001110 
+	Parameter INIT_58 bound to: 16'b0101100110011001 
+	Parameter INIT_59 bound to: 16'b0000000000000000 
+	Parameter INIT_5A bound to: 16'b0000000000000000 
+	Parameter INIT_5B bound to: 16'b0000000000000000 
+	Parameter INIT_5C bound to: 16'b0101000100010001 
+	Parameter INIT_5D bound to: 16'b0000000000000000 
+	Parameter INIT_5E bound to: 16'b0000000000000000 
+	Parameter INIT_5F bound to: 16'b0000000000000000 
+	Parameter IS_CONVSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DCLK_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SIM_MONITOR_FILE bound to: c:/zhenyul/Xilinx_Proj_Feb/B3_Git/Measurement/Oscilloscope/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0/simulation/functional/design.txt - type: string 
+INFO: [Synth 8-256] done synthesizing module 'XADC' (2#1) [C:/Xilinx/Vivado/2016.2/scripts/rt/data/unisim_comp.v:44683]
+INFO: [Synth 8-256] done synthesizing module 'xadc_wiz_0' (3#1) [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0.v:52]
+WARNING: [Synth 8-689] width (1) of port connection 'channel_out' does not match port width (5) of module 'xadc_wiz_0' [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/new/xadc.v:272]
+WARNING: [Synth 8-350] instance 'u_xadc' of module 'xadc_wiz_0' requires 27 connections, but only 23 given [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/new/xadc.v:253]
+INFO: [Synth 8-256] done synthesizing module 'xadc' (4#1) [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/new/xadc.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xadc_0' (5#1) [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/synth/xadc_0.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:52 ; elapsed = 00:01:10 . Memory (MB): peak = 367.086 ; gain = 160.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin u_xadc:vp_in to constant 0 [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/new/xadc.v:253]
+WARNING: [Synth 8-3295] tying undriven pin u_xadc:vn_in to constant 0 [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/new/xadc.v:253]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:52 ; elapsed = 00:01:11 . Memory (MB): peak = 367.086 ; gain = 160.000
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0.xdc] for cell 'inst/u_xadc/inst'
+Finished Parsing XDC File [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0.xdc] for cell 'inst/u_xadc/inst'
+Parsing XDC File [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/xadc_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/xadc_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/xadc_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/xadc_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/xadc_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.374 . Memory (MB): peak = 644.910 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:55 ; elapsed = 00:02:21 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:55 ; elapsed = 00:02:21 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst/u_xadc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst/u_xadc/inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:55 ; elapsed = 00:02:21 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'xadc'
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               init_read |                            00000 |                         00000000
+           read_waitdrdy |                            00001 |                         00000001
+          write_waitdrdy |                            00010 |                         00000011
+              read_reg00 |                            00011 |                         00000100
+          reg00_waitdrdy |                            00100 |                         00000101
+              read_reg01 |                            00101 |                         00000110
+          reg01_waitdrdy |                            00110 |                         00000111
+              read_reg02 |                            00111 |                         00001000
+          reg02_waitdrdy |                            01000 |                         00001001
+              read_reg06 |                            01001 |                         00001010
+          reg06_waitdrdy |                            01010 |                         00001011
+              read_reg10 |                            01011 |                         00001100
+          reg10_waitdrdy |                            01100 |                         00001101
+              read_reg11 |                            01101 |                         00001110
+          reg11_waitdrdy |                            01110 |                         00001111
+              read_reg12 |                            01111 |                         00010000
+          reg12_waitdrdy |                            10000 |                         00010001
+              read_reg13 |                            10001 |                         00010010
+          reg13_waitdrdy |                            10010 |                         00010011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'xadc'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:58 ; elapsed = 00:02:24 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 6     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	  19 Input      7 Bit        Muxes := 1     
+	  30 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	  19 Input      2 Bit        Muxes := 2     
+	  19 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module xadc 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 6     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	  19 Input      7 Bit        Muxes := 1     
+	  30 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	  19 Input      2 Bit        Muxes := 2     
+	  19 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:00 ; elapsed = 00:02:26 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:00 ; elapsed = 00:02:26 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:02:00 ; elapsed = 00:02:26 . Memory (MB): peak = 644.910 ; gain = 437.824
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'inst/daddr_reg[3]' (FDE) to 'inst/daddr_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/daddr_reg[5] )
+INFO: [Synth 8-3332] Sequential element (inst/daddr_reg[5]) is unused and will be removed from module xadc_0.
+INFO: [Synth 8-3332] Sequential element (inst/daddr_reg[3]) is unused and will be removed from module xadc_0.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 644.910 ; gain = 437.824
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:10 ; elapsed = 00:03:37 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:10 ; elapsed = 00:03:37 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:10 ; elapsed = 00:03:37 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:03:10 ; elapsed = 00:03:37 . Memory (MB): peak = 644.910 ; gain = 437.824
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:03:10 ; elapsed = 00:03:38 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin inst/u_xadc:vp_in to constant 0
+INFO: [Synth 8-3295] tying undriven pin inst/u_xadc:vn_in to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:14 ; elapsed = 00:03:42 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:14 ; elapsed = 00:03:42 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:14 ; elapsed = 00:03:42 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:14 ; elapsed = 00:03:42 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:15 ; elapsed = 00:03:42 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:15 ; elapsed = 00:03:42 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     1|
+|4     |LUT4 |    11|
+|5     |LUT5 |     3|
+|6     |LUT6 |    16|
+|7     |XADC |     1|
+|8     |FDRE |   104|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------+-----------+------+
+|      |Instance   |Module     |Cells |
++------+-----------+-----------+------+
+|1     |top        |           |   139|
+|2     |  inst     |xadc       |   139|
+|3     |    u_xadc |xadc_wiz_0 |     1|
++------+-----------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:15 ; elapsed = 00:03:42 . Memory (MB): peak = 644.910 ; gain = 437.824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:47 ; elapsed = 00:02:20 . Memory (MB): peak = 644.910 ; gain = 109.516
+Synthesis Optimization Complete : Time (s): cpu = 00:03:16 ; elapsed = 00:03:43 . Memory (MB): peak = 644.910 ; gain = 437.824
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0.xdc] for cell 'inst/u_xadc/inst'
+Finished Parsing XDC File [e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.srcs/sources_1/ip/xadc_0/ip/xadc_wiz_0/xadc_wiz_0.xdc] for cell 'inst/u_xadc/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:58 ; elapsed = 00:03:10 . Memory (MB): peak = 644.910 ; gain = 387.340
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 644.910 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 01 08:30:05 2016...

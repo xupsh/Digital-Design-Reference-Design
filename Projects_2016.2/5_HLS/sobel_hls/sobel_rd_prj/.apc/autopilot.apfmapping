@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sobel.h" path="E:\Github\new\yuehan\sobel_new-old_hls\xapp890\sobel.h"/>
+    <originFiles name="sobel.cpp" path="E:\Github\new\yuehan\sobel_new-old_hls\xapp890\sobel.cpp"/>
+    <originFiles name="ap_bmp.h" path="E:\Github\new\yuehan\sobel_new-old_hls\xapp890\ap_bmp.h"/>
+  </source>
+  <testbench>
+    <originFiles name="test_1080p.bmp" path="E:\Github\new\yuehan\sobel_new-old_hls\xapp890\test_1080p.bmp"/>
+    <originFiles name="sobel_test.cpp" path="E:\Github\new\yuehan\sobel_new-old_hls\xapp890\sobel_test.cpp"/>
+    <originFiles name="result_1080p_golden.bmp" path="E:\Github\new\yuehan\sobel_new-old_hls\xapp890\result_1080p_golden.bmp"/>
+    <originFiles name="ap_bmp.cpp" path="E:\Github\new\yuehan\sobel_new-old_hls\xapp890\ap_bmp.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

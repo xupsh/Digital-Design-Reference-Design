@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Nov 01 08:51:55 2016
+# Process ID: 8952
+# Current directory: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/clock_synth_1
+# Command line: vivado.exe -log clock.vds -mode batch -messageDb vivado.pb -notrace -source clock.tcl
+# Log file: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/clock_synth_1/clock.vds
+# Journal file: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/clock_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clock.tcl -notrace

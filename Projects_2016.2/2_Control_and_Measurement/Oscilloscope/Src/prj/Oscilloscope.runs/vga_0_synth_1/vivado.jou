@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Nov 01 08:22:38 2016
+# Process ID: 7976
+# Current directory: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/vga_0_synth_1
+# Command line: vivado.exe -log vga_0.vds -mode batch -messageDb vivado.pb -notrace -source vga_0.tcl
+# Log file: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/vga_0_synth_1/vga_0.vds
+# Journal file: e:/Github/xupsh/Basys3-Git/Projects_2016.2/2_Control_and_Measurement/Oscilloscope/Src/prj/Oscilloscope.runs/vga_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga_0.tcl -notrace
